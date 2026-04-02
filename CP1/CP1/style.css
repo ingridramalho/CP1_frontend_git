@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #EFE9F4;
 }
 
 header h1 {
@@ -22,10 +23,10 @@ header img {
     width: 100%;
 }
 
+
+
 section {
-    width: 1138;
-    height: 196;
-    margin: 72px;
+    margin: 70px;
 }
 
 section h2 {
@@ -50,8 +51,181 @@ section p {
     color: #262626;
 
     margin-top: 30px;
+    padding-right: 35px;
 }
 
-section img{
+
+
+.section2 h2{
+    font-size: 32px;
+}
+
+.section2 img{
     width: 538px;
+    margin-right: -12px;
+    margin-top: 35px;
+    
+}
+
+.section2 #conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 h2{
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+}
+
+#card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;           
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+#card1, #card2, #card3 {
+    border-radius: 10px;
+    border: 3px solid #262626; 
+    width: 355px;
+    height: 167px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;      
+    box-sizing: border-box; 
+    background-color: #99BEDF;
+    border-color: #064661;
+    
+}
+
+#card2 {
+    background-color: #4F7A8F;
+    color: #FFFFFF;
+}
+
+.section3 h3 {
+    font-family: "Limelight", sans-serif;
+    font-size: 26px;
+    margin: 0;
+    background-color: #99BEDF;
+    Width: 282px;
+    Height: 54px;
+}
+
+#card p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 100%;
+    background-color: #99BEDF;
+    margin-top: 5px;
+    font-size: 26px;
+}
+
+#card2 h3 {
+    background-color: #4F7A8F;
+}
+#card2 p {
+    background-color: #4F7A8F;
+    color: #FFFFFF;
+}
+
+
+
+#galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;           
+    margin-top: 50px;
+}
+
+#galeria img {
+    width: 249.344970703125px;
+    height: 250px;
+    top: 1908px;
+    left: 68px;
+    border-radius: 50px;
+}
+
+#galeria h2 {
+    font-family: "Limelight", sans-serif;
+    font-size: 32px;
+    background-color: #99BEDF;
+    Height: 54px;
+    height: 814.859375px;
+}
+
+
+
+.section5 {
+    margin: 100px 160px 100px 160px;
+}
+
+.section5 h2{
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
+#contato {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    align-items: flex-start;
+}
+
+#email, #whats, #map {
+    display: flex;      
+    align-items: center; 
+    gap: 12px;           
+}
+
+#contato p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 23px;
+    margin: 0;
+    padding-left: 12px;
+}
+
+#contato img {    
+    width: 28px;
+    height: 28px;
+    margin: 0;
+}
+
+
+#rodape {
+    width: 100%;
+    height: 153px;
+    background-color: #064661;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+#rodape p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 26px;
+    
+    margin-top: 15px;
+    padding-left: 100px;
+
+    color: #FFFFFF;
+    background-color: #064661;
 }
